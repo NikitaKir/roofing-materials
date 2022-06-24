@@ -1,0 +1,1696 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+html, body{
+    width:100vw;
+    height:100%;
+    background-image: url(./img/fon.png);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    width: 100vw;
+    display: flex;
+    margin-bottom: -2%;
+}
+
+nav{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon{
+    width: 100vw;
+    height: 100vh;
+}
+
+ul{
+    width: 100vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color:#1C1C1C;
+}
+
+nav > ul > li > a:hover{
+    text-decoration: underline;
+    color:  rgba(243, 129, 32, 1);
+}
+
+.line{
+    margin-top: 2%;
+    width: 90vw;
+    opacity: 0.07;
+    border: 1px solid #1C1C1C;
+}
+
+.infoLogo{
+    background-image: url(./img/logo.png);
+    width: 274px;
+    height: 188px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.info{
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoContact{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -1%;
+}
+
+.infoPrice{
+    width: 14vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.infoPrice > p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #12C868;
+}
+
+.infoPrice > a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #1C1C1C;
+    text-decoration: none;
+    border-bottom: 2px dotted rgba(18, 200, 104, 1);
+}
+
+.infoMessenger{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoMessenger > p{
+    width: 7vw;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1C1C1C;
+    background-image: url(./img/Круг.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.infoMessenger > p > span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #1C1C1C;
+}
+
+.messengerIcon{
+    width: 11vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.infoText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.infoText > p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #1C1C1C;
+}
+
+.infoText > p > span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #1C1C1C;
+}
+
+.infoPhone,.infoPhoneMobil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.scheduleInfo,.scheduleInfoMobil{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.63px;
+    text-align: center;
+    color: #1C1C1C;
+}
+
+.viberIcon{
+    transform: scale(1.0);
+}
+
+.viberIcon:hover{
+    transform: scale(1.1);
+}
+
+.whatsappIcon{
+    transform: scale(1.0);
+}
+
+.whatsappIcon:hover{
+    transform: scale(1.1);
+}
+
+.telegramIcon{
+    transform: scale(1.0);
+}
+
+.telegramIcon:hover{
+    transform: scale(1.1);
+}
+
+
+.scheduleInfo > span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1C1C1C;
+}
+
+.numberInfo, .numberInfoMobil{
+    margin-top: -2%;
+    margin-bottom: 3%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #1C1C1C;
+}
+
+.infoPhone > a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #12C868;
+    text-decoration: none;
+    border-bottom: 2px dotted rgba(18, 200, 104, 1);
+}
+
+.nubberMeMobil{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #12C868;
+    text-decoration: none;
+    border-bottom: 2px dotted rgba(18, 200, 104, 1);
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    width: 100vw; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    position: fixed; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    border: 1px solid #888;
+    border-radius: 10%;
+    width: 25vw;
+    height: 65%;
+    position: fixed; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.number{
+    width: 330px;
+    height: 85px;
+    border-color: #A7A7A7;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 50px #FFFFFF;
+    padding-left: 20px;
+    border-radius: 500px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #A7A7A7;
+}
+
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #A0A0A0;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.animate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+}
+
+.formMain{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #1C1C1C;
+    margin-top: 15%;
+}
+
+.formText1{
+    margin-top: -4%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.formText2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.75;
+}
+
+.formText3{
+    width: 300px; 
+    height: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    opacity: 0.75;
+    text-align: left;
+    
+}
+
+.area{
+    width: 356px;
+    height: 85px;
+    background: #F38120;
+    box-shadow: inset 0px 0px 17px rgba(255, 255, 255, 0.25);
+    border-radius: 500px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.container{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.checkBoxForm{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.checkBoxForm > p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    color: #1C1C1C;
+}
+
+.checkBoxForm > p > a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    color: #F38120;;
+}
+
+.checkBox{
+    height: 18px;
+    width: 18px;
+}
+
+.callYouBack{
+    display: none;
+}
+
+.smoke-base {
+    position         : absolute;
+    left             : 0%;
+    top              : 0%;
+    width            : 100%;
+    height           : 100%;
+    background-color : rgba(0,0,0,.4);
+    display          : table;
+    z-index          : 1001;
+}
+
+.smoke-dialog_wrapper {
+    position       : relative;
+    vertical-align : middle;
+    display        : table-cell;
+}
+
+.smoke-dialog {
+    width            : 40vw;
+    margin           : 0 auto;
+    padding          : 20px;
+    color            : #000000;
+    border           : 1px solid #B6B6B6;
+    border-radius    : 28px;
+    background-color : #f3f3f3;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align       : center;
+    line-height: 24px;
+}
+
+.smoke-dialog-buttons {
+    vertical-align : middle;
+    margin-top: 10px;
+}
+
+.smoke-dialog-buttons-ok, .smoke-dialog-buttons-cancel {
+    margin: 0 7px;
+    padding: 8px 24px;
+    border: 0;
+    border-radius: 7px;
+    outline: 0;
+    color: white;
+    background: #F38120;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: none;
+    vertical-align: baseline;
+    display: inline-block;
+    cursor: pointer;
+}
+.smoke-dialog-buttons-ok:hover, .smoke-dialog-buttons-cancel:hover {
+    background: #222;
+}
+
+.smoke-prompt {
+    margin-top : 15px;
+    text-align : center;
+}
+
+.smoke-prompt-input {
+    -moz-box-sizing  : border-box;
+    box-sizing       : border-box;
+    width            : 75%;
+    margin           : 0;
+    padding          : 11.2px;
+    border           : 1.4px solid #aaa;
+    outline          : none;
+    font-family      : arial;
+    font-size        : 22.4px;
+    
+    background-color : white;
+    display          : inline-block;
+}
+
+.smoke-dialog-buttons-cancel {
+    background-color : rgba(0, 0, 0, .40);
+}
+
+.prise{
+    height: 70%;
+    width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.priseLeft{
+    width: 11vw;
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+    margin-left: 2%;
+}
+
+.priseLeft > p{
+    max-width: 10vw;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #1C1C1C;
+}
+
+.priseLeft > p > span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #1C1C1C;
+}
+
+.priseRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: -14%;
+}
+
+.priseRight > h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 85px;
+    text-align: center;
+    color: #1C1C1C;
+    margin-top: 0;
+}
+
+.priseRight > h1 > span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 85px;
+    text-align: center;
+    color: #1C1C1C;
+}
+
+.mountingPrice{
+    width: 22vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -8%;
+}
+
+.mountingPrice > p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #1C1C1C;
+}
+
+.priceButton{
+    width: 41vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.buttonLeft{
+    width: 20vw;
+    height: 100px;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: none;
+    background: #12C868;
+    box-shadow: inset 0px 0px 22px rgba(255, 255, 255, 0.25);
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.buttonLeft:hover{
+    background: #21E27C;
+    -o-animation: btnAnimation 1s;
+    animation: btnAnimation 1s;
+    -webkit-animation: btnAnimation 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.mobil{
+    display: none;
+}
+
+.mobilNav{
+    display: none;
+}
+
+.infoB{
+    display: none;
+}
+
+.fonB{
+    display: none;
+}
+
+.menuInfo{display: none;}
+
+
+    @keyframes btnAnimation {
+    0%{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    15%{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    30%{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    100%{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+.buttonRight{
+    width: 19vw;
+    height: 100px;
+    padding-left: 3%;
+    padding-right: 3%;
+    border:none;
+    background: #F38120;;
+    box-shadow: inset 0px 0px 22px rgba(255, 255, 255, 0.25);
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.buttonRight:hover{
+    background: #FD9C49;
+    -o-animation: btnAnimation 1s;
+    animation: btnAnimation 1s;
+    -webkit-animation: btnAnimation 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.priceText{
+    width: 15vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.priceText > p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1C1C1C;
+    margin-top: 0;
+}
+
+.priceText > p > span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1C1C1C;
+}
+
+.priceTextMobil{
+    display: none;
+}
+
+.mesengerTextMobil{
+    display: none;
+}
+
+@media (max-width:1600px) {
+    .line{
+        margin-top: 6%;
+    }
+
+    .infoContact{
+        margin-top: -3%;
+    }
+
+    .infoText{
+        margin-bottom: -1%;
+    }
+
+    .infoPrice{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .infoMessenger > p{
+        width: 10vw;
+    }
+
+    .animate{
+        width: 30vw;
+        height: 85%;
+    }
+
+    .formMain{
+        margin-top: 8%;
+    }
+
+    .area{
+        margin-top: 3%;
+    }
+
+    .checkBoxForm{
+        width:27vw;
+    }
+    
+    html, body{
+        overflow-y: auto;
+        height: 100%;
+    }
+
+    .priseLeft{
+    width: 15vw;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+    margin-left: 1%;
+}
+
+    .priseLeft > p{
+        max-width: 15vw;
+        margin-top: -4%;
+    }
+
+    .mountingPrice{
+        width: 28vw;
+        display: flex;
+        align-items: center;
+    }
+
+    .mountingPrice > p{
+        font-size: 28px;
+    }
+
+    .priseRight > h1{
+        font-size: 42px;
+    }
+
+    .priseRight > h1> span{
+        font-size: 42px;
+    }
+
+    .prise{
+        margin-top: 5%;
+    }
+
+    .buttonRight{
+        width: 22vw;
+        height: 85px;
+    }
+
+    .buttonLeft{
+        width: 25vw;
+        height: 85px;
+    }
+
+    .priseRight{
+        margin-right: -28%;
+    }
+
+    .priceButton{
+        width: 49vw;
+    }
+
+    .priceText{
+        width: 21vw;
+    }
+}
+
+@media (max-width: 1100px) {
+    .infoPrice{
+        width: 18vh;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .infoMessenger > p {
+        width: 14vw;
+    }
+
+    .numberInfo{
+        font-size: 16px;
+    }
+
+    .messengerIcon{
+        width: 15vw
+    }
+
+    .priseLeft > p {
+        max-width: 15vw;
+        margin-top: -18%;
+    }
+
+    .priseRight {
+        margin-right: -57%;
+    }
+
+    .mountingPrice {
+        width: 36vw;
+        display: flex;
+        align-items: center;
+    }
+
+    .priceButton {
+        width: 65vw;
+    }
+
+    .buttonLeft {
+        width: 32vw;
+        height: 85px;
+    }
+
+    .buttonRight {
+        width: 30vw;
+        height: 85px;
+    }
+
+    .animate {
+        width: 42vw;
+        height: 77
+    }
+
+    .checkBoxForm {
+        width: 34vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .priceText {
+        width: 28vw;
+    }
+}
+
+@media (max-width:960px) {
+    .mobil{
+        display: block;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    html,body{
+    width:100vw;
+    height:100%;
+    background: #EDF2F5;
+    background-image: url(./img/Фон\ 1.png);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+    header{
+        display: none;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .infoText{
+        display: none;
+    }
+
+    .infoPrice{
+        display: none;
+    }
+
+    .infoLogo{
+        display: none;
+    }
+
+    .infoMessenger{
+        display: none;
+    }
+
+    .priseLeft{
+        display: none;
+    }
+
+    .scheduleInfo{
+        display: none;
+    }
+
+    .numberInfo{
+        display: none;
+    }
+
+    .nubberMe{
+        display: none;
+    }
+
+    .menu{
+        background-image: url(./img/Меню.png);
+        width: 3vw;
+        height: 30px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+    .closeMenu{
+        font-size: 70px;
+        font-weight: 700;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+    .logo{
+        background-image: url(./img/logoMobil.png);
+        width: 100px;
+        height: 52px;
+        background-repeat: no-repeat;
+    }
+
+    .animate {
+        width: 50vw;
+        height: 51%;
+    }
+
+    .checkBoxForm {
+        width: 38vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .prise {
+        height: 70%;
+        width: 100vw;
+        margin-top: -22%;
+    }
+
+    .priseRight {
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .priceText{
+        display: none;
+    }
+
+    .priceTextMobil{
+        width: 61vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mountingPrice {
+        width: 41vw;
+        display: flex;
+        align-items: center;
+    }
+
+    .priceButton {
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .buttonLeft {
+        width: 330px;
+        height: 80px;
+        font-size: 14px;
+    }
+
+    .buttonRight{
+        width: 330px;
+        height: 80px;
+        font-size: 14px;
+    }
+
+    .infoTxtMobil{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #1C1C1C;
+    }
+
+    .infoTxtMobil > span {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 12px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #1C1C1C;
+    }
+
+    .fonB{
+        position: absolute;
+        display: block;
+        background-image: url(./img/Форма.png);
+        width: 400px;
+        height: 200px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+        margin-bottom: -21%;
+    }
+
+    .mobilBottom{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .bottomFlex > h2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #1C1C1C;
+    }
+
+    .bottomFlex > h2 > span{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 30px;
+        color: #1C1C1C;
+    }
+
+    .bottomFlex{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 3%;
+    }
+
+    .fonB > p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #B5B5B5;
+        margin-left: 9%;
+        margin-top: -1%;
+    }
+
+    .plus {
+        background-color: #F38120;
+        -webkit-border-radius: 500px;
+        box-shadow: inset 0px 0px 22px rgba(255, 255, 255, 0.25);
+        border-radius: 100%;
+        border: none;
+        color: #eeeeee;
+        transform: rotate(45deg);
+        cursor: pointer;
+        display: inline-block;
+        font-family: sans-serif; 
+        font-size: 45px;
+        padding: 12px 25px;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 4%;
+    }
+    @keyframes glowing {
+        0% { background-color: #F38120; box-shadow: 0 0 5px #F38120; }
+        50% { background-color: #F38120; box-shadow: 0 0 100px #F38120; }
+        100% { background-color: #F38120; box-shadow: 0 0 5px #F38120; }
+    }
+    .plus {
+        animation: glowing 1300ms infinite;
+    }
+
+    .infoB{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+
+    .fonInfo{
+    background-color: #fefefe;
+    border: 0px solid #888;
+    border-radius: 10%;
+    width: 50vw;
+    height: 84%;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .closeP{
+        position: absolute;
+        right: 25px;
+        top: 0;
+        background-color: #F38120;
+        -webkit-border-radius: 500px;
+        box-shadow: inset 0px 0px 22px rgba(255, 255, 255, 0.25);
+        border-radius: 100%;
+        border: none;
+        color: #eeeeee;
+        cursor: pointer;
+        display: inline-block;
+        font-family: sans-serif; 
+        font-size: 45px;
+        padding: 12px 25px;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 4%;
+        
+    }
+
+    .fonInfo > p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 36px;
+        color: #1C1C1C;
+        text-align: left;
+        width: 80%;
+        margin-bottom: 14%;
+        cursor: pointer;
+    }
+
+    .fonInfo > p:active{
+        color: #F38120;
+    }
+
+    .fonInfo > p > span{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36px;
+        color: #1C1C1C;
+        text-align: left;
+        cursor: pointer;
+    }
+
+    .menuInfo{
+        background: #EDF2F5;
+        display: none;
+        position: fixed;
+        z-index: 1;
+        width: 100vw;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    nav {
+        height: 55%;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .mobilNav{
+        display: block;
+    }
+
+    ul {
+        width: 100vw;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        height: 80%;
+        margin-left: -5%;
+    }
+
+    nav > ul > li >a{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #1C1C1C;
+    }
+
+    .infoTextMenu{
+        display: flex;
+        justify-content: center;
+        margin-top: -17%;
+    }
+
+    .infoTextMenu > p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 41px;
+        text-align: center;
+        color: #1C1C1C;
+    }
+
+    .infoTextMenu > p > span{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 14px;
+        text-align: center;
+        color: #1C1C1C;
+    }
+
+    .pdfMobil{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .pdfMobil > p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 40px;
+        letter-spacing: 0.04em;
+        color: #1C1C1C;
+        border-bottom: 2px dotted rgba(18, 200, 104, 1);
+    }
+
+    .infoMessengerMobil{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mesengerTextMobil > p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #1C1C1C;
+    }
+
+    .mesengerTextMobil > p > span{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #1C1C1C;
+    }
+
+    .onlain{
+        background-image: url(./img/Круг.png);
+        background-repeat: no-repeat;
+        width: 7px;
+        height: 7px;
+    }
+
+    .mesengerTextMobil{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 32vw;
+    }
+
+    .messengerIcon{
+        display: flex;
+        width: 31vw;
+        justify-content: space-between;
+    }
+
+    .messengerIcon > div > a >img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .scheduleInfoMobil{
+        font-size: 25px;
+    }
+
+    .nubberMeMobil{
+        font-size: 20px;
+    }
+
+    .scheduleInfoMobil{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:700px) {
+    .priseRight > h1 {
+        line-height: 52px;
+        font-size: 40px; 
+    }
+
+    .priseRight > h1 > span{
+        line-height: 52px;
+        font-size: 40px; 
+    }
+
+    .mountingPrice > p {
+        font-size: 28px;
+    }
+
+    .mountingPrice {
+        width: 50vw;
+        display: flex;
+        align-items: center;
+    }
+
+    .priceTextMobil {
+        width: 81vw;
+    }
+
+    .priceButton {
+        height: 32%;
+    }
+
+    .fonInfo > p {
+        margin-bottom: 3%;
+    }
+
+    .fonInfo  {
+        width: 60vw;
+        height: 78%;
+        top: 60%;
+    }
+
+    .mesengerTextMobil {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 34vw;
+    }
+
+    .messengerIcon {
+        display: flex;
+        width: 40vw;
+        justify-content: space-between;
+    }
+
+    .scheduleInfoMobil{
+        font-size: 25px;
+    }
+
+    .nubberMeMobil{
+        font-size: 20px;
+    }
+
+    .scheduleInfoMobil{
+        font-size: 15px;
+    }
+
+    .checkBoxForm {
+        width: 45vw;
+    }
+}
+
+@media (max-width:550px) {
+    .menu {
+        width: 30px;
+        height: 30px;
+    }
+
+    .priseRight > h1 {
+        line-height: 43px;
+        font-size: 18px;
+    }
+
+    .priseRight > h1 > span{
+        line-height: 43px;
+        font-size: 18px;
+    }
+
+    .priseRight {
+        margin-top: -15%;
+    }
+
+    .mountingPrice > p {
+        font-size: 13px;
+    }
+    
+
+    .mountingPrice {
+        width: 50vw
+    }
+
+    .infoTxtMobil{
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .infoTxtMobil > span {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .bottomFlex {
+        margin-top: 6%;
+    }
+
+    .fonB{
+        width: 360px;
+        margin-bottom: -15%;
+    }
+
+    .bottomFlex > h2{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .bottomFlex > h2 > span{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .fonB > p{
+        font-size: 10px;
+    }
+
+    .fonInfo > p > span{
+        font-size: 10px;
+        line-height: 17px;
+    }
+
+    .fonInfo > p {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    
+    .closeP {
+        font-size: 27px;
+        padding: 4px 12px;
+    }
+
+    .fonInfo {
+        width: 67vw;
+        height: 57%;
+        top: 70%;
+    }
+
+    .closeMenu{
+        font-size: 50px;
+    }
+
+    .scheduleInfoMobil {
+        font-size: 7px;
+    }
+
+    .numberInfoMobil{
+        font-size: 14px;
+    }
+
+    .nubberMeMobil {
+        font-size: 10px;
+    }
+
+    nav > ul > li >a{
+        font-size: 10px;
+    }
+
+    .infoTextMenu > p > span{
+        font-size: 10px;
+    }
+
+    .infoTextMenu > p {
+    font-size: 10px;
+    line-height: 14px;
+    }
+
+    .pdfMobil > p{
+        font-size: 10px;
+    }
+
+    .mesengerTextMobil > p > span{
+        font-size: 8px;
+    }
+
+    .mesengerTextMobil > p {
+        font-size: 8px;
+    }
+
+    .onlain {
+        background-image: url(./img/Круг.png);
+        background-repeat: no-repeat;
+    }
+
+    .mesengerTextMobil{
+        width: 22vw;
+    }
+
+    .messengerIcon > div > a >img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .messengerIcon {
+        display: flex;
+        width: 31vw;
+        justify-content: space-between;
+    }
+
+    .formMain {
+        margin-top: 8%;
+        font-size: 18px;
+    }
+
+    .formText1{
+        font-size: 12px;
+    }
+
+    .formText2 {
+        font-size: 10px;
+    }
+
+    .animate {
+        width: 80vw;
+        height: 60%;
+    }
+
+    .number {
+        width: 270px;
+        height: 70px
+    }
+
+    .area{
+        width: 270px;
+        height: 70px;
+        font-size: 18px;
+    }
+
+    .checkBoxForm > p{
+        font-size: 10px;
+    }
+
+    .checkBoxForm {
+        width: 70vw;
+    }
+
+    .smoke-dialog {
+        width: 72vw;
+    }
+}
+
+
+
+
+
